@@ -15,16 +15,21 @@ DataDog integration ensures that all ConfigCat settings changes send to DataDog 
 
 First of all you need DataDog subscription and [DataDog API key](https://docs.datadoghq.com/account_management/api-app-keys/#api-keys).
 <img src="../../img/datadog_apikey.png"/>
-1.  Navigate to product's settings page + IMG
+
+1. Navigate to product's settings page
+
 <img src="../../img/datadog_manageproduct.png"/>
-2.  Select *Integrations* tab + IMG
+
+2. Select *Integrations* tab
+
 <img src="../../img/datadog_connect.png"/>
-3.  Click to DataDog's CONNECT button and set a DataDog API key
+
+3. Click to DataDog's CONNECT button and set a DataDog API key
 
 ## Remove
-1.  Navigate to product's settings page
-2.  Select *Integrations* tab
-3.  Click to DataDog's DISCONNECT button
+1. Navigate to product's settings page
+2. Select *Integrations* tab
+3. Click to DataDog's DISCONNECT button
 
 ## DataDog filtering
 
@@ -33,5 +38,6 @@ All configcat related events *source* property is ```configcat``` and tagged wit
 ### Example
 
 Search all events where the environment is production: ```sources:configcat production```
+
 <img src="../../img/datadog_filtering.png"/>
 
